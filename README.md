@@ -10,6 +10,7 @@
 
 ### Folder struture
 
+`
 .
 ├── dist
 ├── src
@@ -23,6 +24,7 @@
 │   └── js
 │       └── Index.js    <- Webpack entrypoint
 └── index.html          <- Default HTML
+`
 
 ### Contact
 [rick@rgdigital.io](mailto:rick@rgdigital.io)
