@@ -27,5 +27,13 @@
 └── index.html              <- Default HTML
 ```
 
+### Features
+
+- Preloader added inline, runs before before bundle runtime
+- ES6 JS bundled (so works with React, VueJS, etc.)
+- Stylesheet loaded separately from bundle
+- Optimised app builds with minified JS, CSS, HTML
+- Super-quick compilation
+
 ### Contact
 [rick@rgdigital.io](mailto:rick@rgdigital.io)

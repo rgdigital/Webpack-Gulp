@@ -84,7 +84,7 @@ gulp.task('html', function () {
  */
 gulp.task('scss', function () {
     return gulp.src('./src/css/scss/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(gulp.dest('./dist'))
         .pipe(browser.stream())
 });
