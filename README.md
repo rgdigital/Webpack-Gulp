@@ -14,16 +14,16 @@
 .
 ├── dist
 ├── src
-│   ├── _partials       <- HTML partials
+│   ├── _partials           <- HTML partials
 │   ├── css
 │   │   └── scss
-│   │       └── style.scss
+│   │       └── style.scss  <- CSS compiled to dist/
 │   ├── public
 │   │   ├── fonts
 │   │   └── img
 │   └── js
-│       └── Index.js    <- Webpack entrypoint
-└── index.html          <- Default HTML
+│       └── Index.js        <- Webpack entrypoint
+└── index.html              <- Default HTML
 ```
 
 ### Contact
