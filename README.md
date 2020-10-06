@@ -23,7 +23,7 @@
 │   │   └── img
 │   └── js
 │       └── Index.js        <- Webpack entrypoint
-│       └── Preloader.js    <- Preloader entrypoint (default = inline in index.html)
+│       └── Preloader.js    <- Preloader entrypoint (compiled inline into index.html)
 └── index.html              <- Default HTML
 ```
 
