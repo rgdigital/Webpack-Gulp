@@ -1,0 +1,49 @@
+// Semilight
+@font-face {
+    font-family: 'stratos';
+    font-weight:lighter;
+    src: url('./public/fonts/stratos/stratosweb-semilight.eot');
+    src: url('./public/fonts/stratos/stratosweb-semilight.eot?#iefix') format('embedded-opentype'),
+    url('./public/fonts/stratos/stratosweb-semilight.woff') format('woff');
+}
+// Semilight Italic
+@font-face {
+    font-family: 'stratos';
+    font-weight:lighter;
+    font-style: italic;
+    src: url('./public/fonts/stratos/stratosweb-semilightitalic.eot');
+    src: url('./public/fonts/stratos/stratosweb-semilightitalic.eot?#iefix') format('embedded-opentype'),
+    url('./public/fonts/stratos/stratosweb-semilightitalic.woff') format('woff');
+}
+// Regular
+@font-face {
+    font-family: 'stratos';
+    src: url('./public/fonts/stratos/stratosweb-regular.eot');
+    src: url('./public/fonts/stratos/stratosweb-regular.eot?#iefix') format('embedded-opentype'),
+    url('./public/fonts/stratos/stratosweb-regular.woff') format('woff');
+}
+// Regular Italic
+@font-face {
+    font-family: 'stratos';
+    font-style: italic;
+    src: url('./public/fonts/stratos/stratosweb-italic.eot');
+    src: url('./public/fonts/stratos/stratosweb-italic.eot?#iefix') format('embedded-opentype'),
+    url('./public/fonts/stratos/stratosweb-italic.woff') format('woff');
+}
+// Medium
+@font-face {
+    font-family: 'stratos';
+    font-weight:700;
+    src: url('./public/fonts/stratos/stratosweb-medium.eot');
+    src: url('./public/fonts/stratos/stratosweb-medium.eot?#iefix') format('embedded-opentype'),
+    url('./public/fonts/stratos/stratosweb-medium.woff') format('woff');
+}
+// Medium Italic
+@font-face {
+    font-family: 'stratos';
+    font-style: italic;
+    font-weight:400;
+    src: url('./public/fonts/stratos/stratosweb-mediumitalic.eot');
+    src: url('./public/fonts/stratos/stratosweb-mediumitalic.eot?#iefix') format('embedded-opentype'),
+    url('./public/fonts/stratos/stratosweb-mediumitalic.woff') format('woff');
+}

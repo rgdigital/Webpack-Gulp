@@ -1,0 +1,163 @@
+/* Mixins */
+/*
+ * Transition
+ @include transition(all .2s ease);
+ */
+/*
+ * Transition
+ @include transition-delay(100ms);
+ */
+/*
+ * Hardware accelerate
+ @include hwaccelerate();
+ */
+/*
+ * Box sizing
+ @include box-sizing(border-box);
+ */
+/*
+ * Generic transform
+ @include transform(translate(1px, 1px));
+ */
+/*
+ * Generic Translate
+ @include translate(1px, 1px);
+ */
+/*
+ * 3D Translate
+ @include translate3d(1px, 1px, 1px);
+ */
+/*
+ * 3D Translate
+ @include rotate3d($vector-x, $vector-y, $vector-z, $rotate)
+ @include rotate3d(1, 1, 1, 45deg)
+ */
+/*
+ * Generic transform
+ @include transform-origin(top left);
+ */
+/*
+ * Generic transform style
+ @include transform-preserve-3d();
+ */
+/*
+ * Opacity
+ @include opacity(0.8);
+ */
+/*
+ * Scale
+ @include scale(0.8);
+ */
+/*
+ * Clearfix
+ @include clearfix();
+ */
+/*
+ * Rotate
+ @include rotate(180);
+ */
+/*
+ * text-shadow
+ @include text-shadow(1px, 1px, 1px, #000000);
+ */
+/*
+ * transform-origin
+ @include transform-origin(center center);
+ */
+/*
+ * border-radius
+ @include border-radius(0.5em);
+ */
+/*
+ * vertical-align
+ @include vertical-align();
+ */
+/*
+ * Fill element with background image
+ @include bgfill();
+ */
+/*
+ * Fill parent element with position:absolute
+ @include fillParent();
+ */
+/*
+ * Box Shadow
+ @include box-shadow(1px, 1px, 1px, #e1e1e1, false);
+ */
+/*
+* Vertical Align
+* @include vertical-align();
+*/
+/*
+* Fill parent
+* @include fill-parent();
+*/
+/*
+ * GSAP-compatible hide
+ @include hide();
+ */
+/*
+ * Clearfix
+.container-with-floated-children {
+  @extend %clearfix;
+}
+ */
+@font-face {
+  font-family: 'stratos';
+  font-weight: lighter;
+  src: url("./public/fonts/stratos/stratosweb-semilight.eot");
+  src: url("./public/fonts/stratos/stratosweb-semilight.eot?#iefix") format("embedded-opentype"), url("./public/fonts/stratos/stratosweb-semilight.woff") format("woff"); }
+
+@font-face {
+  font-family: 'stratos';
+  font-weight: lighter;
+  font-style: italic;
+  src: url("./public/fonts/stratos/stratosweb-semilightitalic.eot");
+  src: url("./public/fonts/stratos/stratosweb-semilightitalic.eot?#iefix") format("embedded-opentype"), url("./public/fonts/stratos/stratosweb-semilightitalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'stratos';
+  src: url("./public/fonts/stratos/stratosweb-regular.eot");
+  src: url("./public/fonts/stratos/stratosweb-regular.eot?#iefix") format("embedded-opentype"), url("./public/fonts/stratos/stratosweb-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'stratos';
+  font-style: italic;
+  src: url("./public/fonts/stratos/stratosweb-italic.eot");
+  src: url("./public/fonts/stratos/stratosweb-italic.eot?#iefix") format("embedded-opentype"), url("./public/fonts/stratos/stratosweb-italic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'stratos';
+  font-weight: 700;
+  src: url("./public/fonts/stratos/stratosweb-medium.eot");
+  src: url("./public/fonts/stratos/stratosweb-medium.eot?#iefix") format("embedded-opentype"), url("./public/fonts/stratos/stratosweb-medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'stratos';
+  font-style: italic;
+  font-weight: 400;
+  src: url("./public/fonts/stratos/stratosweb-mediumitalic.eot");
+  src: url("./public/fonts/stratos/stratosweb-mediumitalic.eot?#iefix") format("embedded-opentype"), url("./public/fonts/stratos/stratosweb-mediumitalic.woff") format("woff"); }
+
+p {
+  font-size: 1.25em; }
+
+h1 {
+  font-size: 3.4em; }
+
+h3 {
+  font-size: 3em; }
+
+h4 {
+  font-size: 1.5em; }
+
+body {
+  font-family: 'stratos';
+  background: #E9ECEC; }
+  @media (max-width: 467px) {
+    body {
+      overflow-x: hidden; } }
+  body .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }

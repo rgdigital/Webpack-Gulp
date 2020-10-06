@@ -1,0 +1,1 @@
+console.log('Logged by src/js/Index.js')

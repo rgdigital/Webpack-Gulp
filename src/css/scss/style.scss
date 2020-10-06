@@ -1,0 +1,30 @@
+// Generic
+@import "generic/mixins";
+@import "generic/fonts";
+@import "generic/variables";
+@import "generic/typography";
+// @import "generic/iconsprites";
+
+// Atoms
+// @import "atoms/buttons";
+
+// Molecules
+// @import "molecules/buttons";
+
+// Organisms
+// @import "organisms/footer";
+
+body
+{
+    font-family: 'stratos';
+    background:#E9ECEC;
+    @media (max-width: 467px) {
+        overflow-x: hidden;
+    }
+    .container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
